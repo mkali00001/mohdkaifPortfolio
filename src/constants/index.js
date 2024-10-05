@@ -34,12 +34,14 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Xbinlegal",
+    link :"https://xbinlegal.pandoconsultants.com/",
     image: project1,
     description:"XBINLEGAL is a responsive web application I developed while working at Pando India Software Consultants. The project was built using Node.js, React.js, Express.js, and Tailwind CSS to ensure seamless performance across different devices. I was responsible for both front-end and back-end development, incorporating technologies like MySQL, SQL, HTML, CSS, and JavaScript to optimize performance and scalability. Additionally, I implemented Mailgun to manage email notifications, enhancing communication within the application. This project showcased my ability to work on complex systems, ensuring efficiency and user-friendly interfaces.",
     technologies: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "React.js", "SQL", "MySQL","Postman"],
   },
   {
     title: "Easy Document",
+    link :"EasyDoc",
     image: project2,
     description:
       "Easy Document is an ongoing project I am currently working on at Pando India Software Consultants, where I utilize NestJS for the backend development. In this project, I am developing APIs for essential functionalities, including a PDF to Word conversion feature and a PDF compression API. I leverage pdf-lib for manipulating and optimizing PDF files, which enables efficient handling of document transformations. My focus is on creating robust, scalable APIs that ensure quick and accurate document processing, continually improving the performance and usability of the application.",
@@ -47,6 +49,7 @@ export const PROJECTS = [
   },
   {
     title: "Portfolio Website",
+    link :"https://mohdkaif-site.vercel.app/",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
