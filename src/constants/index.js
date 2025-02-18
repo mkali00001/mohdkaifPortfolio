@@ -48,12 +48,20 @@ export const PROJECTS = [
     technologies: ["Nest.js", "Postman"],
   },
   {
-    title: "Portfolio Website",
-    link :"https://mohdkaif-site.vercel.app/",
-    image: project3,
+    title: "Mini Weather App",
+    link :"https://mini-weather-app-by-kaif.vercel.app/",
+    image: 'https://plus.unsplash.com/premium_photo-1677593850639-9f1e14e4524b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d2VhdGhlciUyMGFwcHxlbnwwfHwwfHx8MA%3D%3D',
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "TailwindCSS"],
+      "Mini Weather app helps in getting realtime weather details of cities, A user can see the current temperature, humidity, minimum temperature maximum temperature etc.",
+    technologies: ["HTML", "CSS", "React", "Material UI", "JavaScript"],
+  },
+  {
+    title: "Code Reviewer",
+    link :"https://github.com/mkali00001/CodeReviewer",
+    image: 'https://plus.unsplash.com/premium_photo-1675793715030-0584c8ec4a13?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzd8fGNvZGUlMjByZXZpZXdlcnxlbnwwfHwwfHx8MA%3D%3D',
+    description:
+      "This is a code review plateform integrated with google gemini LLM, It's work in a way when the user puts code inside the review box and click on the review button, This application review the code given by the user and gives some useful fixed and bug free code..",
+    technologies: ["HTML", "CSS", "React", "Tailwind CSS", "JavaScript", "Node.js", "prismjs"],
   },
 ];
 
