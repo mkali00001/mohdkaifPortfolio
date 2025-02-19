@@ -40,12 +40,14 @@ const Hero = () => {
                             <a
                                 href={cv}
                                 download="MohdKaif.pdf"
-                                className="block px-4 py-2 rounded-md bg-transparent text-black font-semibold border-2 border-transparent
-               hover:bg-white hover:text-black transition duration-300"
+                                className="block px-4 py-2 rounded-md text-black font-semibold border-2 border-transparent
+               bg-white transition duration-400 hover:text-white hover:bg-gradient-to-r hover:from-pink-500 
+               hover:via-slate-500 hover:to-purple-500  "
                             >
                                 Download CV
                             </a>
                         </motion.button>
+
 
                         <motion.p
                             variants={container(1.5)}
