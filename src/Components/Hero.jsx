@@ -1,7 +1,7 @@
 import React from 'react'
 import { HERO_CONTENT } from "../constants"
 import profilePic from "../assets/kaif.jpg"
-
+import cv from "../resume/kaif.pdf"
 import { motion } from "framer-motion"
 
 const container = (delay) => ({
@@ -30,9 +30,25 @@ const Hero = () => {
                             initial="hidden"
                             animate="visible"
                             className=' bg-gradient-to-r from-pink-500 via-slate-500 to-purple-500
-                    bg-clip-text text-3xl tracking-tight text-transparent '>Full Stack Developer</motion.span>
-                        <motion.p
+                    bg-clip-text text-3xl tracking-tight text-transparent'>Full Stack Developer</motion.span><br />
+                        <motion.button
                             variants={container(1)}
+                            initial="hidden"
+                            animate="visible"
+                            className="relative p-[2px] rounded-md bg-gradient-to-r from-pink-500 via-slate-500 to-purple-500"
+                        >
+                            <a
+                                href={cv}
+                                download="MohdKaif.pdf"
+                                className="block px-4 py-2 rounded-md bg-transparent text-black font-semibold border-2 border-transparent
+               hover:bg-white hover:text-black transition duration-300"
+                            >
+                                Download CV
+                            </a>
+                        </motion.button>
+
+                        <motion.p
+                            variants={container(1.5)}
                             initial="hidden"
                             animate="visible"
                             className='my-2 max-w-xl py-6 font-light tracking-tighter'>{HERO_CONTENT}</motion.p>
@@ -40,11 +56,11 @@ const Hero = () => {
                 </div>
                 <div className='w-full lg:w-1/2 '>
                     <div className='flex justify-center'>
-                        <motion.img 
-                        initial={{x:100, opacity:0}}
-                        animate={{x:0, opacity:1}}
-                        transition={{duration:1, delay:1.2}}
-                        className='w-[30rem] rounded-lg' src={profilePic} alt="Mohd. Kaif" />
+                        <motion.img
+                            initial={{ x: 100, opacity: 0 }}
+                            animate={{ x: 0, opacity: 1 }}
+                            transition={{ duration: 2, delay: 2.2 }}
+                            className='w-[30rem] rounded-lg' src={profilePic} alt="Mohd. Kaif" />
                     </div>
                 </div>
             </div>
