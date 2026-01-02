@@ -47,14 +47,14 @@ export const PROJECTS = [
       "Easy Document is an ongoing project I am currently working on at Pando India Software Consultants, where I utilize NestJS for the backend development. In this project, I am developing APIs for essential functionalities, including a PDF to Word conversion feature and a PDF compression API. I leverage pdf-lib for manipulating and optimizing PDF files, which enables efficient handling of document transformations. My focus is on creating robust, scalable APIs that ensure quick and accurate document processing, continually improving the performance and usability of the application.",
     technologies: ["Nest.js", "Postman"],
   },
-  {
-    title: "Mini Weather App",
-    link :"https://mini-weather-app-by-kaif.vercel.app/",
-    image: 'https://plus.unsplash.com/premium_photo-1677593850639-9f1e14e4524b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d2VhdGhlciUyMGFwcHxlbnwwfHwwfHx8MA%3D%3D',
-    description:
-      "Mini Weather app helps in getting realtime weather details of cities, A user can see the current temperature, humidity, minimum temperature maximum temperature etc.",
-    technologies: ["HTML", "CSS", "React", "Material UI", "JavaScript"],
-  },
+  // {
+  //   title: "Mini Weather App",
+  //   link :"https://mini-weather-app-by-kaif.vercel.app/",
+  //   image: 'https://plus.unsplash.com/premium_photo-1677593850639-9f1e14e4524b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d2VhdGhlciUyMGFwcHxlbnwwfHwwfHx8MA%3D%3D',
+  //   description:
+  //     "Mini Weather app helps in getting realtime weather details of cities, A user can see the current temperature, humidity, minimum temperature maximum temperature etc.",
+  //   technologies: ["HTML", "CSS", "React", "Material UI", "JavaScript"],
+  // },
   {
     title: "Code Reviewer",
     link :"https://github.com/mkali00001/CodeReviewer",
